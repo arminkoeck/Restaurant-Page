@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: "Rubik";
+    src: url("./Rubik-VariableFont_wght.ttf");
+}
+
+.home-container, .menu-container, .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+
+#nav {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+button {
+    background-color: rgb(34, 34, 45);
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    font-size: 35px;
+    font-weight: 20px;
+    font-family: "Rubik";
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px -5px rgb(255,255,255,0.3);
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #66b3c9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./Skyisland.jpg'), linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: "Rubik";
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 20px rgb(255,255,255,0.3);
+}
+
+p {
+    color: black;
+    font-family: "Rubik";
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.home-container p {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(34, 34, 45);
+    border-radius: 3px;
+    padding: 20px;
+    line-height: 45px;
+    box-shadow: 0px 0px 30px 5px rgb(0,0,0,0.4);
+}
+
+.img-container {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.img-container img {
+    box-shadow: 0px 0px 20px 0px rgb(255,255,255,0.4);
+    border: 2px solid white;
+}
+
+.menu-container p {
+    padding-bottom: 20px;
+}
+
+.menu-container p, .menu-container h2 {
+    color: white;
+    font-family: "Rubik";
+    text-align: left;
+}
+
+.menu-container h2 {
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+.menu-container {
+    max-width: 500px;
+}
+
+.menu-container img {
+    margin: 80px 0px 40px;
+    box-shadow: 0px 0px 20px 0px rgb(255,255,255,0.4);
+    border: 2px solid white;
+}
+
+.about-container {
+    margin-top: 80px;
+}
+
+.about-container p {
+    color: white;
+}
+
+.about-container .img-container {
+    margin-top: 40px;
+}
+
